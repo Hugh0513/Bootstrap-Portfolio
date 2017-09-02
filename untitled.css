@@ -1,0 +1,348 @@
+
+/**********************************************/
+/**************** Media Screen ****************/
+/**********************************************/
+@media screen and (max-width: 980px) {
+	/*p {
+		font-size: 20px;
+	}*/
+
+	.menuBar {
+  		margin-left: 100px;
+	}
+	
+
+	/********** About Me *********/
+	.topic {
+		margin-left: 80px;
+		width: 380px;
+		font-size: 20px;
+	}
+
+	.mine {
+		width: 350px;
+		margin-bottom: 10px;
+	}
+
+	/********** Portfolio *********/
+	.txtNimg {
+		float: left;
+		position: relative;
+		/*width: 300px;*/
+		margin-top: 20px;
+		margin-right: 20px;
+		margin-bottom: 20px;
+		overflow: hidden;
+	}
+
+	.txtNimg img {
+		margin-left: 10px;
+	  	width: 360px;
+	  	height: 280px;
+	}
+
+	.txtNimg p {
+		position: absolute;
+		width: 360px;
+		height: 15%;
+		text-align: center;
+		left: 0;
+		bottom: 10px;
+		color: #fff;
+		margin-left: 10px;
+		background: #4aaaa5;
+		vertical-align: middle;
+
+		font-size: 28px;
+	    font-color: #fff;
+	    font-family: "Times New Roman", Times, serif;
+	}
+
+	/********** Contact *********/
+	form {
+
+	}
+
+	input {
+		width: 360px;
+		height: 30px;
+		margin-top: 10px;
+		border: 1px solid #eee;
+	}
+
+	input.sub{
+		width: 100px;
+		color: #fff;
+		font-size: 15px;
+	}
+
+	textarea {
+		width: 360px;
+		height: 200px;
+		margin-top: 10px;
+		
+		border: 1px solid #eee;
+	}
+
+	/********** Connect with Me *********/
+	.connect {
+		width: 200px;
+
+	}
+	.connect img {
+		width: 40px;
+		height: 40px;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+	
+	p {
+		font-size: 20px;
+	}
+
+	h1 {
+		margin-left: 10px;
+	}
+
+	hr {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.myName {
+		margin-left: 20px;
+	}
+
+	.menuBar {
+  		margin-left: 20px;
+	}
+
+	.topic {
+		margin-left: 10px;
+		padding-left: 10px;
+		padding-right: 10px;
+
+		width: 600px;
+		font-size: 20px;
+	}
+
+	/********** About Me *********/
+	.mine {
+		width: 350px;
+		margin-bottom: 10px;
+	}
+
+
+	/********** Portfolio *********/
+	.txtNimg{
+		float: left;
+		position: relative;
+		/*width: 300px;*/
+		margin-top: 20px;
+		margin-right: 20px;
+		margin-bottom: 20px;
+		overflow: hidden;
+	}
+
+	.txtNimg img {
+		margin-left: 10px;
+	  	width: 240px;
+	  	height: 180px;
+	}
+
+	.txtNimg p {
+		position: absolute;
+		width: 240px;
+		height: 15%;
+		text-align: center;
+		left: 0;
+		bottom: 10px;
+		color: #fff;
+		margin-left: 10px;
+		background: #4aaaa5;
+		vertical-align: middle;
+
+		font-size: 20px;
+	    font-color: #fff;
+	    font-family: "Times New Roman", Times, serif;
+	}
+	
+	/********** Contact *********/
+	form {
+
+	}
+
+	input {
+		width: 580px;
+		height: 30px;
+		margin-top: 10px;
+		border: 1px solid #eee;
+	}
+
+	input.sub{
+		width: 100px;
+		color: #fff;
+		font-size: 15px;
+	}
+
+	textarea {
+		width: 580px;
+		height: 200px;
+		margin-top: 10px;
+		
+		border: 1px solid #eee;
+	}
+
+	/********** Connect with Me *********/
+	.connect {
+		margin-top: 20px;
+		margin-left: 10px;
+		padding-left: 10px;
+		padding-right: 10px;
+		width: 600px;
+		font-size: 20px;
+	}
+	.connect img {
+		width: 40px;
+		height: 40px;
+	}
+
+}
+
+@media screen and (max-width: 640px) {
+
+	p {
+		font-size: 16px;
+	}
+
+	.header {
+		width: 100%;
+		height: 130px;
+	}
+
+	.myName {
+		margin-left: 0px;
+		width: 100%;
+	}
+
+	.menuBar {
+		clear: both;
+		width: 100%;
+  		margin-left: 0px;
+  		height: 90px;
+  		text-align: center;
+	}
+	.menuBar li{
+		width: 25%;
+	}
+
+	.topic {
+		margin-left: 10px;
+		padding-left: 10px;
+		padding-right: 10px;
+		width: 450px;
+		font-size: 20px;
+	}
+
+	/********** About *********/
+	.aboutMe hr {
+		width: 400px;
+	}
+
+	.mine {
+		width: 420px;
+		margin-bottom: 10px;
+		clear: both;
+	}
+
+	p {
+		clear: both;
+	}
+
+	/********** Portfolio *********/
+	.txtNimg{
+		float: left;
+		position: relative;
+		/*width: 300px;*/
+		margin-top: 20px;
+		margin-right: 20px;
+		margin-bottom: 20px;
+		overflow: hidden;
+	}
+
+	.txtNimg img {
+		margin-left: 10px;
+	  	width: 400px;
+	  	height: 320px;
+	}
+
+	.txtNimg p {
+		position: absolute;
+		width: 380px;
+		height: 15%;
+		text-align: center;
+		left: 0;
+		bottom: 10px;
+		color: #fff;
+		margin-left: 10px;
+		background: #4aaaa5;
+		vertical-align: middle;
+
+		font-size: 30px;
+	    font-color: #fff;
+	    font-family: "Times New Roman", Times, serif;
+	}
+	
+	/********** Contact *********/
+	.Contact {
+		margin-left: 10px;
+		padding-left: 10px;
+		padding-right: 10px;
+
+		width: 450px;
+		font-size: 20px;
+		
+	}
+
+	form {
+
+	}
+
+	input {
+		width: 430px;
+		height: 30px;
+		margin-top: 10px;
+		border: 1px solid #eee;
+	}
+
+	input.sub{
+		width: 100px;
+		color: #fff;
+		font-size: 15px;
+	}
+
+	textarea {
+		width: 430px;
+		height: 200px;
+		margin-top: 10px;
+		
+		border: 1px solid #eee;
+	}
+
+
+	/********** Connect with Me *********/
+	.connect {
+		margin-top: 20px;
+		margin-left: 10px;
+		padding-left: 10px;
+		padding-right: 10px;
+		width: 450px;
+		font-size: 20px;
+	}
+	.connect img {
+		width: 40px;
+		height: 40px;
+	}
+}
